@@ -7,27 +7,19 @@ import SkillsShowcase from "@/components/skills/skills-showcase";
 import ProjectShowcase from "@/components/projects/project-showcase";
 import { PROJECT_SHOWCASE } from "@/data/projects";
 import { SKILLS_DATA } from "@/data/skills";
-import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export default function Home() {
   return (
     <>
       <NextSeo
-        title="Amit Chauhan | Software Developer"
-        description="Explore the professional portfolio of Amit Chauhan, a skilled Software Developer with 2 years of hands-on experience. Discover innovative projects, expertise in modern web technologies, and a passion for creating seamless user experiences."
-        canonical={siteMetadata.siteUrl}
+        title="Tyrik Nelson | Full stack Web Developer | Software Engineer | Development & Design"
+        description="Explore the professional portfolio of Tyrik Nelson, a skilled Software Developer with 8 years of hands-on experience. Discover innovative projects, expertise in modern web technologies, and a passion for creating seamless user experiences."
         openGraph={{
-          url: siteMetadata.siteUrl,
-          title: "Amit Chauhan - Software Developer",
+          title: "Tyrik Nelson - Software Developer",
           description:
-            "Dive into the world of web development with Amit Chauhan. Discover a Software Developer with 2 years of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
-          images: [
-            {
-              url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "Amit Chauhan - Portfolio Image",
-            },
-          ],
-          siteName: siteMetadata.siteName,
+            "Dive into the world of web development with Tyrik Nelson. Discover a Software Developer with 8 years of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
+          images: [],
+
           type: "website",
         }}
         twitter={{
@@ -41,14 +33,7 @@ export default function Home() {
           },
         ]}
       />
-      <Head>
-        {siteMetadata.googleSiteVerification && (
-          <meta
-            name="google-site-verification"
-            content={siteMetadata.googleSiteVerification}
-          />
-        )}
-      </Head>
+      <Head>Tyrik Nelson</Head>
       <LandingHero />
       <SkillsShowcase skills={SKILLS_DATA} />
       <ProjectShowcase projects={PROJECT_SHOWCASE} />
