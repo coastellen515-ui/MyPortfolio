@@ -11,6 +11,6 @@ export const siteMetadata = {
   socialBanner: "/static/homepage.png",
   email: "nelsontyrik1@gmail.com",
   github: "https://github.com/coastellen515-ui",
-  linkedin: "https://www.linkedin.com/in/Tyrik Nelson-dev",
+  linkedin: "http://linkedin.com/in/tyrik-nelson-738886395",
   locale: "en-US",
 };
