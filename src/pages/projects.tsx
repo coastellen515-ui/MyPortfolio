@@ -10,19 +10,19 @@ export default function Projects() {
       <NextSeo
         title="Projects by Tyrik Nelson - Software Developer Portfolio"
         description="Explore a collection of projects by Tyrik Nelson, a seasoned Software Developer. From innovative web applications to responsive interfaces, discover the depth and diversity of my work."
-        canonical={`${siteMetadata.siteUrl}/projects`}
+        canonical={`${siteMetadata}/projects`}
         openGraph={{
-          url: `${siteMetadata.siteUrl}/projects`,
+          url: `${siteMetadata}/projects`,
           title: "Discover Projects by Tyrik Nelson - Software Developer",
           description:
             "Explore a showcase of projects crafted by Tyrik Nelson, a Software Developer. Witness the fusion of creativity and technology in web development.",
           images: [
             {
-              url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
+              url: `${siteMetadata}${siteMetadata}`,
               alt: "Tyrik Nelson - Portfolio Image",
             },
           ],
-          siteName: siteMetadata.siteName,
+
           type: "website",
         }}
         twitter={{

@@ -12,19 +12,19 @@ export default function About() {
       <NextSeo
         title="About Tyrik Nelson | Software Developer"
         description="Learn more about Tyrik Nelson, a dedicated Software Developer with 2 years of experience. Discover the journey, skills, and passion that drive me to create innovative and user-friendly web solutions."
-        canonical={`${siteMetadata.siteUrl}/about`}
+        canonical={`${siteMetadata}/about`}
         openGraph={{
-          url: `${siteMetadata.siteUrl}/about`,
+          url: `${siteMetadata}/about`,
           title: "Learn About Tyrik Nelson - Software Developer",
           description:
             "Dive into the story of Tyrik Nelson, a Software Developer. Uncover the experiences, skills, and passion that fuel a commitment to delivering exceptional web solutions.",
           images: [
             {
-              url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
+              url: `${siteMetadata}${siteMetadata}`,
               alt: "Tyrik Nelson - Portfolio Image",
             },
           ],
-          siteName: siteMetadata.siteName,
+
           type: "website",
         }}
         twitter={{
